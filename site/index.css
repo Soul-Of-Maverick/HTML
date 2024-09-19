@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+}
+.navbars {
+  background-color: rgba(21, 21, 21, 0.985);
+  position: sticky;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+  font-family: sans-serif;
+}
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: .5rem;
+}
+
+li {
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item a {
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.div1 {
+  height: 450px;
+  background-color: rgb(234, 228, 228);
+  position: static;
+  align-items: center;
+  padding: 3rem;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+
+.display-Content {
+  text-align: center;
+  margin: 3rem, 5rem, 3rem;
+  padding: 3rem;
+  display: block;
+  padding-bottom: 0rem;
+}
+.display-Heading {
+  font-weight: 600;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.display-subHeading {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+}
+
+.display-link {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.icon-link {
+  margin: 20px;
+}
+
+.div2,
+.div3,
+.div4,
+.div5 {
+  height: 500px;
+  display: flex;
+  position: static;
+  margin: 1rem 1rem;
+  box-sizing: border-box;
+  gap: 15px;
+}
+
+.div2-display-Heading,
+.div3-display-Heading,
+.div4-display-Heading,
+.div5-display-Heading {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.div2-display-subHeading,
+.div3-display-subHeading,
+.div4-display-subHeading,
+.div5-display-subHeading {
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+.div2-display-Content-1,
+.div3-display-Content-2 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(3, 3, 3);
+  text-align: center;
+}
+.div2-display-Content-2,
+.div3-display-Content-1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(241, 233, 233);
+  text-align: center;
+}
+
+.div2-1 .box,
+.div3-2 .box {
+  height: 260px;
+  width: 250px;
+  background-color: rgb(241, 235, 235);
+  align-self: center;
+  border-radius: 21px 21px 0 0;
+}
+
+.div2-2 .box,
+.div3-1 .box {
+  height: 400px;
+  width: 250px;
+  align-self: center;
+  background-color: rgb(10, 10, 10);
+  border-radius: 21px 21px 0 0;
+}
+
+.div4-display-Content-1,
+.div5-display-Content-2,
+.div4-display-Content-2,
+.div5-display-Content-1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(244, 240, 240);
+  text-align: center;
+}
+
+.div4-1 .box,
+.div5-2 .box {
+  height: 260px;
+  width: 250px;
+  background-color: white;
+  align-self: center;
+  border-radius: 21px 21px 0 0;
+}
+
+.div4-2 .box,
+.div5-1 .box {
+  height: 400px;
+  width: 250px;
+  background-color: white;
+  align-self: center;
+  border-radius: 21px 21px 0 0;
+}
+
+.footers{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.footer-div{
+  display: block;
+  width: 180px;
+}
+.footer-div ul{
+  padding-left: 0;
+  color: silver;
+  margin-top: .5rem;
+}
+.footer-div h5{
+  margin: 0;
+}
+
+
+

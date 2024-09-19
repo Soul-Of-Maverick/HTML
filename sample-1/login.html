@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- Header component -->
+    <header class="header">
+      <div class="header-item">
+        <h1>WELCOME TO LOGIN PAGE</h1>
+      </div>
+    </header>
+    <!-- Navigation bar -->
+    <nav class="Navigation">
+      <ul class="Navigation-container">
+        <li class="navigation-list">
+          <a class="navigation-item-list" href="login.html">Home</a>
+        </li>
+        <li class="navigation-list">
+          <a class="navigation-item-list" href="about.html">Abuot</a>
+        </li>
+        <li class="navigation-list" >
+          <a class="navigation-item-list" href="#">Contact us</a>
+        </li>
+        <li class="menu-navigation-item-list menu" >
+          <div class="menu-icon" onclick="myFunction(this)">
+            <div class="menu-div div1"></div>
+            <div class="menu-div div2"></div>
+            <div class="menu-div div3"></div>
+          </div>
+          <div class="dropdown-menu">
+            <a href="login.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- section : Login and Register contains -->
+    <section class="section-container">
+      <!-- login page -->
+
+      <div class="sec-div">
+        <form class="login-page" action="" method="get">
+          <h4>Login</h4>
+          <div class="usr-name">
+            <label for="usrname">User Name</label>
+            <input
+              type="text"
+              id="usrname"
+              name="usrname"
+              placeholder="User name"
+            /><br />
+          </div>
+          <div class="usr-password">
+            <label for="user-password">password</label>
+            <input
+              type="password"
+              id="user-password"
+              name="user-password"
+              placeholder="Password"
+            /><br />
+          </div>
+          <div style="text-align: center">
+            <button
+              class="button"
+              onclick="alert('User name : ' + document.getElementById('usrname').value + '\n'+
+              'Login successful')">
+              Login
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script>
+      function myFunction(x) {
+  x.classList.toggle("change");
+}
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.item-container {
+  display: inline-flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.item {
+  /* display: inline; */
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: aqua;
+}
+
+li {
+  list-style-type: none;
+}
